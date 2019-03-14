@@ -1,0 +1,40 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./index.css">
+<div class="header">
+<h1> Tic Tac @ Hiver</h1>
+
+</div>
+<div id="arena">
+    <div >
+        <div class="row" >
+            <div class="col-sm-4 boxTop">
+                <p>You : X</p>
+            </div>
+            <div class="col-sm-4 boxTop">
+                <span style="font-size: 2rem">v</span><span style="font-size: 3rem">s</span>
+            </div>
+            <div class="col-sm-4 boxTop">
+                <p>Coumputer : O</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="parentTop">
+        <div class="gridTop">
+            <div id="grid" class="card">
+
+            </div>
+        </div>
+    </div>
+</div>
+<center>
+        <div id="result" class="hidden">
+            <div id="winner"></div>
+            <a href="#" id="new-game" onclick="newgame()" class="btn btn-primary">Play Again</a>
+        </div>
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="./index.js" ></script>
